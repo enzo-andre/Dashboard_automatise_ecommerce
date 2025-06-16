@@ -40,3 +40,8 @@ mon-dashboard-ecommerce/
 │       └── report_2022_06.pdf
 ├── requirements.txt                 
 └── README.md                            
+
+
+## 👤 Auteur
+> Enzo André, dans le cadre d'une transition en data science
+> [LinkedIn](https://www.linkedin.com/in/enzoandre/) | [Portfolio](https://github.com/enzo-andre)
