@@ -6,10 +6,10 @@ kaleido>=0.2.1
 
 
 # Explications :
-# •	pandas : pour le chargement et la manipulation des données
-# •	plotly : pour toutes les visualisations interactives
-# •	jinja2 : pour le templating HTML
-# •	pdfkit : wrapper Python de wkhtmltopdf (ne pas oublier d’installer wkhtmltopdf à part)
-# •	kaleido : moteur d’export PNG/SVG pour Plotly
+# pandas : pour le chargement et la manipulation des données
+# plotly : pour toutes les visualisations interactives
+# jinja2 : pour le templating HTML
+# pdfkit : wrapper Python de wkhtmltopdf (ne pas oublier d’installer wkhtmltopdf à part)
+# kaleido : moteur d’export PNG/SVG pour Plotly
 
 # => !pip install -r requirements.txt
