@@ -25,14 +25,18 @@ Un pipeline Python de bout en bout pour générer automatiquement des rapports m
 ```text
 mon-dashboard-ecommerce/
 ├── data/
-│   └── Amazon Sale Report.csv           # Dataset d’exemple
+│   └── Amazon Sale Report.zip
+│      └── Amazon Sale Report.csv           
 ├── templates/
 │   └── report_template.html             # Template Jinja du rapport
 ├── scripts/
-│   └── generate_reports.py              # Script principal
+│   └── Rapport_automatise_ecommerce.py
+│   └── Rapport_automatise_ecommerce.ipynb
 ├── reports/
-│   └── 2022/                            # Exemples de PDF générés
-│       ├── report_2022_01.pdf
-│       └── report_2022_02.pdf
-├── requirements.txt                     # Dépendances pip
-└── README.md                            # Documentation (ce fichier)
+│   └── 2022/                            
+│       ├── report_2022_03.pdf
+│       └── report_2022_04.pdf
+│       ├── report_2022_05.pdf
+│       └── report_2022_06.pdf
+├── requirements.txt                 
+└── README.md                            
