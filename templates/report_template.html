@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Rapport {{ month_name }} {{ year }}</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 40px; }
+h1 { text-align: center; }
+.kpis   { display: flex; justify-content: space-around; margin-bottom: 40px; }
+.kpi    { width: 30%; text-align: center; }
+.kpi h2 { margin-bottom: 10px; }
+.chart  { margin-bottom: 60px; text-align: center; }
+img     { max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<h1>Rapport {{ month_name }} {{ year }}</h1>
+
+<div class="kpis">
+<div class="kpi">
+<h2>💰 CA total</h2>
+<p>{{ ca_total }} $</p>
+</div>
+<div class="kpi">
+<h2>🛒 Commandes</h2>
+<p>{{ orders }}</p>
+</div>
+<div class="kpi">
+<h2>📦 Quantité</h2>
+<p>{{ qty }}</p>
+</div>
+<div class="kpi">
+<h2>📈 Profit</h2>
+<p>{{ profit }}{% if profit != "-" %} ${% endif %}</p>
+</div>
+</div>
+
+<div class="chart">
+<h2>Ventes quotidiennes</h2>
+<img src="{{ img_daily | safe }}" alt="Ventes quotidiennes" width="800" />
+</div>
+
+<div class="chart">
+<h2>Répartition du CA par catégorie</h2>
+<img src="{{ img_cat | safe }}" alt="CA par catégorie" width="800" />
+</div>
+
+<div class="chart">
+<h2>CA par canal de vente</h2>
+<img src="{{ img_chan | safe }}" alt="CA par canal" width="800" />
+</div>
+
+<div class="chart">
+<h2>Top 5 produits par CA</h2>
+<img src="{{ img_top5 | safe }}" alt="Top 5 produits" width="800" />
+</div>
+</body>
+</html>
