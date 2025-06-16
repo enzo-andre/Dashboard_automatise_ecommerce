@@ -18,7 +18,11 @@ Un pipeline Python de bout en bout pour générer automatiquement des rapports m
 - Export graphique en haute résolution (PNG / SVG)  
 - Insertion inline (Base64) dans un template Jinja2  
 - Génération de rapports HTML puis conversion en PDF via wkhtmltopdf  
-- Boucle automatique sur tous les mois présents dans les données  
+- Boucle automatique sur tous les mois présents dans les données
+
+## 👤 Auteur
+> Enzo André, dans le cadre d'une transition en data science
+> [LinkedIn](https://www.linkedin.com/in/enzoandre/) | [Portfolio](https://github.com/enzo-andre)
 
 ## 📁 Structure du projet
 
@@ -39,9 +43,4 @@ mon-dashboard-ecommerce/
 │       ├── report_2022_05.pdf
 │       └── report_2022_06.pdf
 ├── requirements.txt                 
-└── README.md                            
-
-
-## 👤 Auteur
-> Enzo André, dans le cadre d'une transition en data science
-> [LinkedIn](https://www.linkedin.com/in/enzoandre/) | [Portfolio](https://github.com/enzo-andre)
+└── README.md
